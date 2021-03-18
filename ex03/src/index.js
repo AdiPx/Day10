@@ -1,16 +1,16 @@
 // Only change code below this line
 var myFood = {
-    vegetable: "carrot",
-    fruit: "orange",
-    drink: "water"
-}
+  vegetable: "carrot",
+  fruit: "orange",
+  drink: "water"
+};
 var myObj;
 myObj = myFood;
-function myFunction(myObj){ 
-    var vegetableValue = myObj["vegetable"];
-    var fruitValue = myObj["fruit"];
-    var drinkValue = myObj["drink"]; 
-    return { vegetableValue, fruitValue, drinkValue };
+function myFunction(myObj) {
+  var vegetableValue = myObj["vegetable"];
+  var fruitValue = myObj["fruit"];
+  var drinkValue = myObj["drink"];
+  return { vegetableValue, fruitValue, drinkValue };
 }
 //Only change code above this line
 console.log(myFunction(myObj)); // Change this line
